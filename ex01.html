@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function doclick(){
+        //window.onload = function doclick(){} 는 출력 내용이 다름
+            var htmltags = ""; //htmltags 함수를 실행함
+            htmltags = "<ul>";
+            htmltags += "<li>";
+            htmltags += "목록1";
+            htmltags += "</li>";
+            htmltags += "</ul>";  // 같은 뜻 :  htmltags = htmltags + "</ul>";
+            document.body.innerHTML = htmltags; //바디안에 htmltags의 함수 내용을 넣음
+        }
+    </script>
+</head>
+<body> 
+    <div>
+        test
+    </div>
+    <button onclick="doclick()">버튼</button> <!--버튼을 누르면 doclick (스크립트)를 실행-->
+</body>
+</html>

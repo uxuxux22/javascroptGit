@@ -1,0 +1,7 @@
+git config --global user.name /이름설정
+git config --global user.email /이메일설정
+git init /초기 폴더 설정
+git clone /서버에서 파일 내려받기
+git add . /모든 파일 올릴 계획
+git commit -m "메세지 / commit 하기
+git push / 서버에 올리기
