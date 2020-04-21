@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="number"/> <!-- 입력할 수 있는 창 생성-->
+        <input type="button" onclick="doA()" value="확인"/> <!-- 버튼 생선, 클릭하면 doA(스크립트) 실행, 텍스트: 확인-->
+    </div>
+</body>
+</html>
+<script>
+    function doA(){
+        var inputNumber = document.getElementById("number").value;
+        inputNumber++
+        console.log("inputNumber = "+inputNumber);
+    }
+</script>
